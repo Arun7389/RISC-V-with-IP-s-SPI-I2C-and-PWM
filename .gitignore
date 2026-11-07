@@ -1,0 +1,52 @@
+# ==============================================================================
+# .gitignore for RISC-V VeeR EL2 SoC UVM Project
+# ==============================================================================
+
+# Simulation binaries and compiler database
+csrc/
+simv*
+*.daidir/
+*.vdb/
+*.so
+*.o
+*.a
+vc_hdrs.h
+
+# Verdi / Novas files
+verdiLog/
+novas.*
+novas_dump.log
+verdi_config_file
+*.ses
+*.ses.*
+
+# Waveforms
+*.fsdb
+*.vcd
+*.vpd
+*.dump
+
+# Run and execution logs
+*.log
+ucli.key
+tr_db.log
+run/
+testcase_output/
+test waves/
+tb/uvm_veer_soc/logs/
+
+# Binary documents and pictures
+doc/*.xlsx
+doc/*.pdf
+doc/excels vips/
+*.png
+*.jpg
+*.jpeg
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Temporary scratch
+.run.f.swp
+1
